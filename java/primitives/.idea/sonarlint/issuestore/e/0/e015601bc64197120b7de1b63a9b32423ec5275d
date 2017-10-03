@@ -1,0 +1,9 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ã²ñó8íê³¢î+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜Ïñùÿÿÿÿÿ8¾ôÕ¡î+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ô³¡ 8£¦˜¢î+
+Ksquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ÓŒ¿¡î+
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(·¶¬8ó„ÿ¢î+
+esquid:S2259"DA "NullPointerException" could be thrown; "writer" is nullable here.(×ÏÙÞÿÿÿÿÿ8ÓŒ¿¡î+
