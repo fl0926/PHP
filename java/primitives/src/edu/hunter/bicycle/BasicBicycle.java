@@ -1,9 +1,9 @@
 package edu.hunter.bicycle;
 
 public class BasicBicycle implements Bicycle {
-    private int cadence = 0;
-    private int brakingForce = 0;
-    private int cogSize = 3;
+    protected int cadence = 0;
+    protected int brakingForce = 0;
+    protected int cogSize = 3;
 
     /**
      * Returns the cadence at which the pedals are turning.
