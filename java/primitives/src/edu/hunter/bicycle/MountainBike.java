@@ -1,6 +1,6 @@
 package edu.hunter.bicycle;
 
-public class MountainBike extends BasicBicycle {
+public class MountainBike extends BasicBicycle implements GearedBicycle {
     protected int currentGear = 1;
 
     @Override
@@ -8,6 +8,23 @@ public class MountainBike extends BasicBicycle {
         return (this.cadence * this.currentGear) - this.brakingForce;
     }
 
+    public void setCurrentGear(int newCurrentGear){
+        if ( (newCurrentGear >= 1) && (newCurrentGear <= 21) ) {
+            this.currentGear = newCurrentGear;
+        }
+    }
+
+    public int getCurrentGear(){
+        return this.currentGear;
+    }
+
+
+    @Override
+    public String toString(){
+        String retVal = super.toString();
+        retVal = retVal + "        gear: " + this.getCurrentGear() + "\n";
+        return retVal;
+    }
     /*
      * Create methods to set and get the current gear.  Wouldn't it be
      * interesting to not allow the user to set a gear < 1 or > 21?

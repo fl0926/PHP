@@ -51,4 +51,38 @@ public class BasicBicycle implements Bicycle {
     public void releaseBrakes() {
         this.brakingForce = 0;
     }
+
+    @Override
+    public String toString(){
+        String retVal = new String();
+        retVal = retVal + "Bicycle type: " + getClass().getName() + "\n";
+        retVal = retVal + "       speed: " + this.getSpeed()      + "\n";
+        retVal = retVal + "     cadence: " + this.getCadence()    + "\n";
+        return retVal;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
