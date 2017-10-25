@@ -24,3 +24,5 @@ X
 (src/edu/hunter/bicycle/BasicBicycle.java,f/0/f048dea09bfb7b261e6232d55601362a269d4cc8
 ]
 -src/edu/hunter/bicycle/BicycleController.java,3/b/3be873da2f28ee371090399d20b92444cea2bdd4
+O
+src/edu/hunter/Exceptional.java,9/d/9d193385840266a8504c991d8e007560cb7185e3

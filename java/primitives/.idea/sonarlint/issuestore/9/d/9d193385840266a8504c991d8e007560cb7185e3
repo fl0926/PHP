@@ -1,0 +1,11 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ô˜•˜ýÿÿÿÿ8Ü Óƒõ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÄÚÇ¾üÿÿÿÿ8Ðã¡„õ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(—ÃÕÂ8®‰îƒõ+
+hsquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ê¼«Ìþÿÿÿÿ8·çò„õ+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ô˜•˜ýÿÿÿÿ8ÿÓñ„õ+
+§%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ê¼«Ìþÿÿÿÿ8·çò„õ+
