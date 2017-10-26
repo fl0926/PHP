@@ -59,6 +59,7 @@ function createPager(data){
 }
 
 
+
 function reallyGetPictures(someURL){
     var myScriptElement = document.createElement("SCRIPT");
     myScriptElement.src = someURL;
@@ -79,10 +80,15 @@ function processResponse(data){
     var images = data.results;
 
     for( var i = 0; i < images.length; i++){
+        if(images[i].links.resource == null){
+
+            continue;
+        }
         addPicture(images[i].image.full, images[i].title);
     }
 
     console.log(data);
+
     window.data = data;
 }
 
@@ -118,3 +124,16 @@ function addPicture(picUrl, altText){
 
     document.getElementById("output").appendChild(figure);
 }
+
+function hookEvents(){
+    document.getElementById("term").addEventListener(
+        "keypress",
+        function (e) {
+            if (e.key == "Enter") {
+                getPictures();
+            }
+        }
+    );
+}
+
+window.addEventListener("load", hookEvents);
