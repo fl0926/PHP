@@ -23,7 +23,16 @@ values
 ('canine', 'German Short-Haired Pointer', 'Spike', 4, 'M', 'available');
 
 
-
+create table `adoptapet`.`users`(
+	`id`        INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `email`     VARCHAR(90) NOT NULL,
+    `firstName` VARCHAR(45),
+    `lastName`  VARCHAR(45),
+    `password`  VARCHAR(100) NOT NULL,
+    `admin`     VARCHAR(1) DEFAULT 'N',
+    PRIMARY KEY (`id`),
+    UNIQUE INDEX `id_UNIQUE` (`id` ASC)
+);
 
 
 

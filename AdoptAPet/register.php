@@ -1,3 +1,4 @@
+<?php session_start()?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,13 @@
     <title>Register</title>
 </head>
 <body>
+    <?php
+        if(isset($_SESSION['registrationMessage'])){
+            print "<div class='error' style='color:#ff0000;'>".$_SESSION['registrationMessage']."</div>";
+            unset($_SESSION['registrationMessage']);
+        }
+    ?>
+
     <form action="doRegister.php" method="post">
         <label for="firstName">First Name:</label><input type="text" id="firstName" name="firstName" /><br/>
         <label for="lastName">Last Name:</label><input type="text" id="lastName" name="lastName" /><br/>
