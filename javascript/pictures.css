@@ -1,0 +1,43 @@
+BODY {
+    margin: 0px;
+    font-family: Arial;
+}
+
+BODY H1{
+    background: #336699;
+    color: #fffff0;
+    border: 0px;
+    margin: 0px;
+    padding: .5em;
+    box-shadow: .25em .25em rgba(0,0,0,.4);
+}
+
+BODY P{
+    margin-left: 3em;
+}
+
+.hits-div{
+    background: #6699CC;
+    padding: .5em;
+}
+
+.pager-div{
+    background: #99CCFF;
+    padding: .5em;
+}
+
+.pager-div SPAN{
+    padding: .25rem;
+    background: #555555;
+    color: #fffff0;
+    border:1px solid black;
+    cursor: not-allowed;
+}
+
+.pager-div BUTTON:hover{
+    background: #9999ff;
+}
+
+#term{
+    margin-left: 3em;
+}
