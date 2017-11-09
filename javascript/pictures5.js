@@ -106,6 +106,10 @@ function processResponse(data){
         centerMode: true
     });
 
+    window.agent.play("GetAttention");
+    window.agent.speak(hitsDiv.innerText);
+    sayOutLoud(hitsDiv.innerText);
+
 }
 
 function clearDiv(divId){
@@ -155,11 +159,25 @@ function hookEvents(){
 function loadAgent(agentName){
     if(window.agent){
         window.agent.stop();
+        window.agent.hide();
     }
+
+    // clippy's load function will create a new agent and pass it to
+    // the function you give it as the second parameter.
+    clippy.load(agentName, function(clippysAgent){
+       window.agent = clippysAgent;
+       window.agent.show();
+       window.agent.moveTo(500,100);
+    });
 }
 
-
+function sayOutLoud(thingToSay){
+    window.speechSynthesis.cancel();
+    var msg = new SpeechSynthesisUtterance(thingToSay);
+    window.speechSynthesis.speak(msg);
+}
 
 window.addEventListener("load", hookEvents);
 
+loadAgent("Peedy");
 
