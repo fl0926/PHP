@@ -1,5 +1,36 @@
 <?php
 
+
+
+class Pet{
+    public $id;
+    public $species;
+    public $breed;
+    public $name;
+    public $age;
+    public $gender;
+    public $available;
+}
+
+
+function getPetInfo($id){
+    $db = getDB();
+    $result = $db->query("select * from pets where id=".$id);
+    $result->data_seek(0);
+    $row = $result->fetch_assoc();
+
+    $retVal = new Pet();
+    $retVal->id        = $row['id'];
+    $retVal->species   = $row['species'];
+    $retVal->name      = $row['name'];
+    $retVal->age       = $row['age'];
+    $retVal->gender    = $row['gender'];
+    $retVal->available = $row['avail'];
+    $retVal->breed     = $row['breed'];
+
+    return $retVal;
+}
+
 function validateUser($userid, $passwd){
     if(userExists($userid)){
         if(getUserInfo($userid)['password'] === $passwd){
@@ -51,7 +82,12 @@ function userExists($paramEmail){
 }
 
 
-
+function createPet($species, $breed, $name, $age, $gender, $avail){
+    $db = getDB();
+    $pstmt = $db->prepare("insert into pets (species, breed, name, age, gender, avail) values (?, ?, ?, ?, ?, ?)");
+    $pstmt->bind_param('sssiss', $species, $breed, $name, $age, $gender, $avail);
+    $pstmt->execute();
+}
 
 
 

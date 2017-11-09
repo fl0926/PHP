@@ -44,7 +44,7 @@
     <tr>
         <td><?=$row['species']?></td>
         <td><?=$row['breed']?></td>
-        <td><?=$row['name']?></td>
+        <td><a href="petDetails.php?id=<?=$row['id']?>" >  <?=$row['name']?>  </a></td>
         <td><?=$row['age']?></td>
         <td><?=$row['gender']?></td>
         <td><?=$row['avail']?></td>
