@@ -152,6 +152,14 @@ function hookEvents(){
     );
 }
 
+function loadAgent(agentName){
+    if(window.agent){
+        window.agent.stop();
+    }
+}
+
+
+
 window.addEventListener("load", hookEvents);
 
 
