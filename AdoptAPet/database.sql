@@ -1,30 +1,33 @@
-drop schema if exists `adoptapet`;
+DROP SCHEMA IF EXISTS `adoptapet`;
 
-create schema `adoptapet` default character set utf8 collate utf8_bin;
+CREATE SCHEMA `adoptapet` DEFAULT CHARACTER SET utf8 COLLATE utf8_bin;
 
-use `adoptapet`;
+USE `adoptapet`;
 
-create table `adoptapet`.`pets` (
-	`id` int unsigned not null auto_increment,
-    `species` varchar(45) not null,
-    `breed`   varchar(45),
-    `name`    varchar(45),
-    `age`     int,
-    `gender`  varchar(45),
-    `avail`   varchar(45) not null,
-    primary key(`id`),
-    unique index `id_unique` (`id` asc)
+CREATE TABLE `adoptapet`.`pets` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    `species` VARCHAR(45) NOT NULL,
+    `breed`   VARCHAR(45),
+    `name`    VARCHAR(45),
+    `age`     INT,
+    `gender`  VARCHAR(45),
+    `avail`   VARCHAR(45) NOT NULL,
+    `photo`   VARCHAR(45) DEFAULT 'nophoto.jpg',
+    PRIMARY KEY(`id`),
+    UNIQUE INDEX `id_unique` (`id` ASC)
 );
 
-insert into pets(species, breed, name, age, gender, avail)
-values
-('canine', 'Poodle', 'Fluffy', 2, 'M', 'available'),
-('canine', 'German Shepherd', 'Hans', 3, 'F', 'available'),
-('canine', 'German Short-Haired Pointer', 'Spike', 4, 'M', 'available');
+INSERT INTO pets (species, breed, name, age, gender, avail)
+VALUES
+  ('canine', 'Poodle',                      'Fluffy', 2, 'M', 'AVAILABLE'),
+  ('canine', 'German Shepherd',             'Spike',  2, 'F', 'AVAILABLE'),
+  ('canine', 'German Short-Haired Pointer', 'Hans',   2, 'M', 'AVAILABLE'),
+  ('canine', 'Chihuahua',                   'Pablo',  3, 'F', 'AVAILABLE'),
+  ('canine', 'Collie',                      'Lassie', 1, 'M', 'AVAILABLE');
 
 
-create table `adoptapet`.`users`(
-	`id`        INT UNSIGNED NOT NULL AUTO_INCREMENT,
+CREATE TABLE `adoptapet`.`users`(
+	  `id`        INT UNSIGNED NOT NULL AUTO_INCREMENT,
     `email`     VARCHAR(90) NOT NULL,
     `firstName` VARCHAR(45),
     `lastName`  VARCHAR(45),

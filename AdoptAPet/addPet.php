@@ -19,14 +19,14 @@ require_once "functions.php";
     </span>
 </div>
 
-<form action="doAddPet.php" method="post">
+<form enctype="multipart/form-data" action="doAddPet.php" method="post">
     <label for="species"     >Species:     </label><input type="text" id="species"      name="species"      /><br/>
     <label for="breed"       >Breed:       </label><input type="text" id="breed"        name="breed"        /><br/>
     <label for="name"        >Name:        </label><input type="text" id="name"         name="name"         /><br/>
     <label for="age"         >Age:         </label><input type="text" id="age"          name="age"          /><br/>
     <label for="gender"      >Gender:      </label><input type="text" id="gender"       name="gender"       /><br/>
     <label for="availability">Availability:</label><input type="text" id="availability" name="availability" /><br/>
-    
+    <label for="photo"       >Photo:       </label><input type="file" id="photo"        name="photo"        /><br/>
     <input type="submit" name="go" value="Save"/>
     &nbsp;<a href="index.php">Cancel</a>
 </form>

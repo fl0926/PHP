@@ -53,5 +53,12 @@
     <?php } ?>
     </tbody>
 </table>
+
+<hr/>
+
+<?php if($loggedIn){?>
+    <a href="addPet.php">+ Add</a>
+<?php } ?>
+
 </body>
 </html>
