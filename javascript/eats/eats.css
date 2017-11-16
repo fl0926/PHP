@@ -1,0 +1,19 @@
+body{
+    font-family: Helvetica;
+    font-size: 20pt;
+}
+
+.head{
+    background: #336699;
+    color: #fffff0;
+    padding: .25em;
+    margin: 0px;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+#form-div{
+    background: #99BBFF;
+    padding: .25em;
+    border: 1px solid black;
+}

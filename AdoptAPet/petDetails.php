@@ -22,18 +22,25 @@
         </div>
 
 
-
         <table border="0">
-            <tr>
-                <td colspan="6"><img src="images/<?=$petInfo->photo?>" /></td>
-                <td>Species</td><td><?=$petInfo->species?></td>
-            </tr>
-            <tr><td>Breed</td><td><?=$petInfo->breed?></td></tr>
-            <tr><td>Name</td><td><?=$petInfo->name?></td></tr>
-            <tr><td>Age</td><td><?=$petInfo->age?></td></tr>
-            <tr><td>Gender</td><td><?=$petInfo->gender?></td></tr>
-            <tr><td>Availability</td><td><?=$petInfo->available?></td></tr>
+        <tr>
+            <td>
+                <img src="images/<?=$petInfo->photo?>" />
+            </td>
+            <td>
+                <table border="0">
+                    <tr><td>Species</td><td><?=$petInfo->species?></td></tr>
+                    <tr><td>Breed</td><td><?=$petInfo->breed?></td></tr>
+                    <tr><td>Name</td><td><?=$petInfo->name?></td></tr>
+                    <tr><td>Age</td><td><?=$petInfo->age?></td></tr>
+                    <tr><td>Gender</td><td><?=$petInfo->gender?></td></tr>
+                    <tr><td>Availability</td><td><?=$petInfo->available?></td></tr>
+                </table>
+
+            </td>
+        </tr>
         </table>
+
         <hr/>
         <a href="doDeletePet.php?id=<?=$_GET['id']?>" >delete</a>
     </body>
