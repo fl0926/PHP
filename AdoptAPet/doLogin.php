@@ -13,6 +13,7 @@ if(validateUser($userid, $passwd)){
     $_SESSION['firstName'] = $userinfo['firstName'];
     $_SESSION['lastName']  = $userinfo['lastName'];
     $_SESSION['userid']    = $userid;
+    $_SESSION['isAdmin']   = $userinfo['isAdmin'];
     header("Location: index.php");
 }else{
     header("Location: login.php");

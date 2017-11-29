@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="795826b7-fc93-45ca-83a7-76e2f842fad9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/eats/eats.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/eats/eats.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdoptAPet/.idea/workspace.xml" afterPath="$PROJECT_DIR$/AdoptAPet/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdoptAPet/petDetails.php" afterPath="$PROJECT_DIR$/AdoptAPet/petDetails.php" />
-    </list>
+    <list default="true" id="795826b7-fc93-45ca-83a7-76e2f842fad9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -332,12 +326,12 @@
       <workItem from="1510264948438" duration="6306000" />
       <workItem from="1510580312672" duration="75000" />
       <workItem from="1510670236961" duration="5000" />
-      <workItem from="1510863467585" duration="7390000" />
+      <workItem from="1510863467585" duration="7440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52831000" />
+    <option name="totallyTimeSpent" value="52881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

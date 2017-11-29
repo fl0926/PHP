@@ -46,6 +46,17 @@ function validateUser($userid, $passwd){
     return false;
 }
 
+function isAdmin(){
+    if(!isset($_SESSION['isAdmin'])){
+        return false;
+    }
+
+    if( ($_SESSION['isAdmin'] == 'Y') || ($_SESSION['isAdmin'] == 'y') ){
+        return true;
+    }
+
+
+}
 
 function getUserInfo($paramEmail){
     $db = getDB();
@@ -53,7 +64,7 @@ function getUserInfo($paramEmail){
     $result->data_seek(0);
     $row = $result->fetch_assoc();
 
-    return array("userid"=>$row['email'], "firstName"=>$row['firstName'], "lastName"=>$row['lastName'], "password"=>$row['password']);
+    return array("isAdmin"=>$row['admin'], "userid"=>$row['email'], "firstName"=>$row['firstName'], "lastName"=>$row['lastName'], "password"=>$row['password']);
 }
 
 
