@@ -47,15 +47,18 @@ function validateUser($userid, $passwd){
 }
 
 function isAdmin(){
+
+    // return ( isset($_SESSION['isAdmin']) && strtoupper($_SESSION['isAdmin']) == 'Y');
+
     if(!isset($_SESSION['isAdmin'])){
         return false;
     }
 
-    if( ($_SESSION['isAdmin'] == 'Y') || ($_SESSION['isAdmin'] == 'y') ){
+    if( strtoupper($_SESSION['isAdmin']) == 'Y' ){
         return true;
     }
 
-
+    return false;
 }
 
 function getUserInfo($paramEmail){
@@ -99,6 +102,13 @@ function createPet($species, $breed, $name, $age, $gender, $avail){
     $db = getDB();
     $pstmt = $db->prepare("insert into pets (species, breed, name, age, gender, avail) values (?, ?, ?, ?, ?, ?)");
     $pstmt->bind_param('sssiss', $species, $breed, $name, $age, $gender, $avail);
+    $pstmt->execute();
+}
+
+function updatePet($id, $species, $breed, $name, $age, $gender, $avail){
+    $db = getDB();
+    $pstmt = $db->prepare("update pets set species=?, breed=?, name=?, age=?, gender=?, avail=? where id=?");
+    $pstmt->bind_param('sssissi', $species, $breed, $name, $age, $gender, $avail, $id);
     $pstmt->execute();
 }
 

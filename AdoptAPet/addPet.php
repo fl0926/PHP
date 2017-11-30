@@ -1,6 +1,8 @@
 <?php
 require_once "header.php";
 require_once "functions.php";
+include "adminWall.php";
+
 ?>
 <!DOCTYPE html>
 <html style="margin: 0px; padding: 0px">

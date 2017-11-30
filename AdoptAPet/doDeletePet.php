@@ -1,6 +1,8 @@
 <?php
 
 require_once 'functions.php';
+include "adminWall.php";
+
 
 /*
  * Make sure $_GET['id'] has something in it if you want to

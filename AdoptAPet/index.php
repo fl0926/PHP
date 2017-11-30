@@ -56,7 +56,7 @@
 
 <hr/>
 
-<?php if($loggedIn){?>
+<?php if(isAdmin()){?>
     <a href="addPet.php">+ Add</a>
 <?php } ?>
 

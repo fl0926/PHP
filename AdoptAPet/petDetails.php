@@ -42,7 +42,11 @@
         </table>
 
         <hr/>
-        <a href="doDeletePet.php?id=<?=$_GET['id']?>" >delete</a>
+        <?php if(isAdmin()){?>
+            <a href="addPet.php">+ Add</a>&nbsp;&nbsp;
+            <a href="doDeletePet.php?id=<?=$_GET['id']?>" >delete</a>
+        <?php } ?>
+
     </body>
 
 </html>

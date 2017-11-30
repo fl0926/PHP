@@ -1,6 +1,8 @@
 <?php
 
 require_once 'functions.php';
+include "adminWall.php";
+
 
 /*
  * Make sure all of the $_POST variables have a value if you want to
