@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94ea2110-3886-483c-8683-9dbcbc574b94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/adminWall.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/updatePet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addPet.php" afterPath="$PROJECT_DIR$/addPet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doAddPet.php" afterPath="$PROJECT_DIR$/doAddPet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doDeletePet.php" afterPath="$PROJECT_DIR$/doDeletePet.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petDetails.php" afterPath="$PROJECT_DIR$/petDetails.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/updatePet.php" afterPath="$PROJECT_DIR$/updatePet.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,20 +48,23 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2150">
-              <caret line="110" column="85" lean-forward="false" selection-start-line="110" selection-start-column="85" selection-end-line="110" selection-end-column="85" />
+            <state relative-caret-position="553">
+              <caret line="117" column="32" lean-forward="false" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
               <folding>
-                <marker date="1511999848386" expanded="true" signature="248:276" ph="select * fro... pets" />
-                <marker date="1511999848386" expanded="true" signature="1398:1445" ph="select * fro... users" />
-                <marker date="1511999848386" expanded="true" signature="2025:2101" ph="insert into users... " />
-                <marker date="1511999848386" expanded="true" signature="2325:2342" ph="select email... " />
-                <marker date="1511999848386" expanded="true" signature="2325:2376" ph="select email... users" />
-                <marker date="1511999848386" expanded="true" signature="2555:2640" ph="insert into pets... " />
-                <marker date="1511999848386" expanded="true" signature="2871:2950" ph="update pets " />
-                <marker date="1511999848386" expanded="true" signature="2877:2939" ph="insert into pets... " />
-                <marker date="1511999848386" expanded="true" signature="3199:3294" ph="insert into pets... " />
-                <marker date="1511999848386" expanded="true" signature="3486:3513" ph="delete from " />
-                <marker date="1511999848386" expanded="true" signature="3497:3513" ph="insert into pets... " />
+                <marker date="1512603154050" expanded="true" signature="248:276" ph="select * fro... pets" />
+                <marker date="1512603154050" expanded="true" signature="1398:1445" ph="select * fro... users" />
+                <marker date="1512603154050" expanded="true" signature="2025:2101" ph="insert into users... " />
+                <marker date="1512603154050" expanded="true" signature="2325:2342" ph="select email... " />
+                <marker date="1512603154050" expanded="true" signature="2325:2376" ph="select email... users" />
+                <marker date="1512603154050" expanded="true" signature="2555:2640" ph="insert into pets... " />
+                <marker date="1512603154050" expanded="true" signature="2871:2950" ph="update pets " />
+                <marker date="1512603154050" expanded="true" signature="2877:2939" ph="insert into pets... " />
+                <marker date="1512603154050" expanded="true" signature="3204:3282" ph="update pets " />
+                <marker date="1512603154050" expanded="true" signature="3204:3292" ph="update pets " />
+                <marker date="1512603154050" expanded="true" signature="3210:3282" ph="insert into pets... " />
+                <marker date="1512603154050" expanded="true" signature="3550:3645" ph="insert into pets... " />
+                <marker date="1512603154050" expanded="true" signature="3837:3864" ph="delete from " />
+                <marker date="1512603154050" expanded="true" signature="3848:3864" ph="insert into pets... " />
               </folding>
             </state>
           </provider>
@@ -73,8 +73,20 @@
       <file leaf-file-name="updatePet.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/updatePet.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="141" lean-forward="false" selection-start-line="24" selection-start-column="141" selection-end-line="24" selection-end-column="141" />
+            <state relative-caret-position="675">
+              <caret line="40" column="100" lean-forward="true" selection-start-line="40" selection-start-column="100" selection-end-line="40" selection-end-column="100" />
+              <folding>
+                <marker date="1512604302083" expanded="true" signature="2276:2282" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="doUpdatePet.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doUpdatePet.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -83,8 +95,8 @@
       <file leaf-file-name="petDetails.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petDetails.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="66" />
+            <state relative-caret-position="846">
+              <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -113,11 +125,12 @@
         <option value="$PROJECT_DIR$/database.sql" />
         <option value="$PROJECT_DIR$/doLogin.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/petDetails.php" />
         <option value="$PROJECT_DIR$/addPet.php" />
         <option value="$PROJECT_DIR$/adminWall.php" />
         <option value="$PROJECT_DIR$/doAddPet.php" />
         <option value="$PROJECT_DIR$/doDeletePet.php" />
+        <option value="$PROJECT_DIR$/doUpdatePet.php" />
+        <option value="$PROJECT_DIR$/petDetails.php" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/updatePet.php" />
       </list>
@@ -138,9 +151,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2028" />
-    <option name="width" value="1502" />
-    <option name="height" value="915" />
+    <option name="x" value="1973" />
+    <option name="y" value="183" />
+    <option name="width" value="1492" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,6 +190,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -231,17 +245,18 @@
       <workItem from="1510784414873" duration="5737000" />
       <workItem from="1510842983602" duration="761000" />
       <workItem from="1511993792211" duration="5740000" />
+      <workItem from="1512598770221" duration="5325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31432000" />
+    <option name="totallyTimeSpent" value="36757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1600" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14304124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14497423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972324" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -273,14 +288,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/addPet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="106" lean-forward="false" selection-start-line="27" selection-start-column="94" selection-end-line="27" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/petDetails.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -325,17 +332,20 @@
         <state relative-caret-position="1602">
           <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
           <folding>
-            <marker date="1511999848386" expanded="true" signature="248:276" ph="select * fro... pets" />
-            <marker date="1511999848386" expanded="true" signature="1398:1445" ph="select * fro... users" />
-            <marker date="1511999848386" expanded="true" signature="2025:2101" ph="insert into users... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2342" ph="select email... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2376" ph="select email... users" />
-            <marker date="1511999848386" expanded="true" signature="2555:2640" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="2871:2950" ph="update pets " />
-            <marker date="1511999848386" expanded="true" signature="2877:2939" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3199:3294" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3486:3513" ph="delete from " />
-            <marker date="1511999848386" expanded="true" signature="3497:3513" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="248:276" ph="select * fro... pets" />
+            <marker date="1512603154050" expanded="true" signature="1398:1445" ph="select * fro... users" />
+            <marker date="1512603154050" expanded="true" signature="2025:2101" ph="insert into users... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2342" ph="select email... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2376" ph="select email... users" />
+            <marker date="1512603154050" expanded="true" signature="2555:2640" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="2871:2950" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="2877:2939" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3204:3282" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3204:3292" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3210:3282" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3550:3645" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3837:3864" ph="delete from " />
+            <marker date="1512603154050" expanded="true" signature="3848:3864" ph="insert into pets... " />
           </folding>
         </state>
       </provider>
@@ -418,17 +428,20 @@
         <state relative-caret-position="1602">
           <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
           <folding>
-            <marker date="1511999848386" expanded="true" signature="248:276" ph="select * fro... pets" />
-            <marker date="1511999848386" expanded="true" signature="1398:1445" ph="select * fro... users" />
-            <marker date="1511999848386" expanded="true" signature="2025:2101" ph="insert into users... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2342" ph="select email... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2376" ph="select email... users" />
-            <marker date="1511999848386" expanded="true" signature="2555:2640" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="2871:2950" ph="update pets " />
-            <marker date="1511999848386" expanded="true" signature="2877:2939" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3199:3294" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3486:3513" ph="delete from " />
-            <marker date="1511999848386" expanded="true" signature="3497:3513" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="248:276" ph="select * fro... pets" />
+            <marker date="1512603154050" expanded="true" signature="1398:1445" ph="select * fro... users" />
+            <marker date="1512603154050" expanded="true" signature="2025:2101" ph="insert into users... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2342" ph="select email... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2376" ph="select email... users" />
+            <marker date="1512603154050" expanded="true" signature="2555:2640" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="2871:2950" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="2877:2939" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3204:3282" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3204:3292" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3210:3282" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3550:3645" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3837:3864" ph="delete from " />
+            <marker date="1512603154050" expanded="true" signature="3848:3864" ph="insert into pets... " />
           </folding>
         </state>
       </provider>
@@ -480,17 +493,20 @@
         <state relative-caret-position="162">
           <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
-            <marker date="1511999848386" expanded="true" signature="248:276" ph="select * fro... pets" />
-            <marker date="1511999848386" expanded="true" signature="1398:1445" ph="select * fro... users" />
-            <marker date="1511999848386" expanded="true" signature="2025:2101" ph="insert into users... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2342" ph="select email... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2376" ph="select email... users" />
-            <marker date="1511999848386" expanded="true" signature="2555:2640" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="2871:2950" ph="update pets " />
-            <marker date="1511999848386" expanded="true" signature="2877:2939" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3199:3294" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3486:3513" ph="delete from " />
-            <marker date="1511999848386" expanded="true" signature="3497:3513" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="248:276" ph="select * fro... pets" />
+            <marker date="1512603154050" expanded="true" signature="1398:1445" ph="select * fro... users" />
+            <marker date="1512603154050" expanded="true" signature="2025:2101" ph="insert into users... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2342" ph="select email... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2376" ph="select email... users" />
+            <marker date="1512603154050" expanded="true" signature="2555:2640" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="2871:2950" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="2877:2939" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3204:3282" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3204:3292" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3210:3282" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3550:3645" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3837:3864" ph="delete from " />
+            <marker date="1512603154050" expanded="true" signature="3848:3864" ph="insert into pets... " />
           </folding>
         </state>
       </provider>
@@ -564,17 +580,20 @@
         <state relative-caret-position="396">
           <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding>
-            <marker date="1511999848386" expanded="true" signature="248:276" ph="select * fro... pets" />
-            <marker date="1511999848386" expanded="true" signature="1398:1445" ph="select * fro... users" />
-            <marker date="1511999848386" expanded="true" signature="2025:2101" ph="insert into users... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2342" ph="select email... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2376" ph="select email... users" />
-            <marker date="1511999848386" expanded="true" signature="2555:2640" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="2871:2950" ph="update pets " />
-            <marker date="1511999848386" expanded="true" signature="2877:2939" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3199:3294" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3486:3513" ph="delete from " />
-            <marker date="1511999848386" expanded="true" signature="3497:3513" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="248:276" ph="select * fro... pets" />
+            <marker date="1512603154050" expanded="true" signature="1398:1445" ph="select * fro... users" />
+            <marker date="1512603154050" expanded="true" signature="2025:2101" ph="insert into users... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2342" ph="select email... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2376" ph="select email... users" />
+            <marker date="1512603154050" expanded="true" signature="2555:2640" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="2871:2950" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="2877:2939" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3204:3282" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3204:3292" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3210:3282" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3550:3645" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3837:3864" ph="delete from " />
+            <marker date="1512603154050" expanded="true" signature="3848:3864" ph="insert into pets... " />
           </folding>
         </state>
       </provider>
@@ -644,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
           <caret line="34" column="10" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,39 +724,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/petDetails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2150">
-          <caret line="110" column="85" lean-forward="false" selection-start-line="110" selection-start-column="85" selection-end-line="110" selection-end-column="85" />
-          <folding>
-            <marker date="1511999848386" expanded="true" signature="248:276" ph="select * fro... pets" />
-            <marker date="1511999848386" expanded="true" signature="1398:1445" ph="select * fro... users" />
-            <marker date="1511999848386" expanded="true" signature="2025:2101" ph="insert into users... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2342" ph="select email... " />
-            <marker date="1511999848386" expanded="true" signature="2325:2376" ph="select email... users" />
-            <marker date="1511999848386" expanded="true" signature="2555:2640" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="2871:2950" ph="update pets " />
-            <marker date="1511999848386" expanded="true" signature="2877:2939" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3199:3294" ph="insert into pets... " />
-            <marker date="1511999848386" expanded="true" signature="3486:3513" ph="delete from " />
-            <marker date="1511999848386" expanded="true" signature="3497:3513" ph="insert into pets... " />
-          </folding>
+        <state relative-caret-position="846">
+          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petDetails.php">
+    <entry file="file://$PROJECT_DIR$/doUpdatePet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="31" column="66" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="66" />
+        <state relative-caret-position="432">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="117" column="32" lean-forward="false" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
+          <folding>
+            <marker date="1512603154050" expanded="true" signature="248:276" ph="select * fro... pets" />
+            <marker date="1512603154050" expanded="true" signature="1398:1445" ph="select * fro... users" />
+            <marker date="1512603154050" expanded="true" signature="2025:2101" ph="insert into users... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2342" ph="select email... " />
+            <marker date="1512603154050" expanded="true" signature="2325:2376" ph="select email... users" />
+            <marker date="1512603154050" expanded="true" signature="2555:2640" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="2871:2950" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="2877:2939" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3204:3282" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3204:3292" ph="update pets " />
+            <marker date="1512603154050" expanded="true" signature="3210:3282" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3550:3645" ph="insert into pets... " />
+            <marker date="1512603154050" expanded="true" signature="3837:3864" ph="delete from " />
+            <marker date="1512603154050" expanded="true" signature="3848:3864" ph="insert into pets... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/updatePet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="141" lean-forward="false" selection-start-line="24" selection-start-column="141" selection-end-line="24" selection-end-column="141" />
-          <folding />
+        <state relative-caret-position="675">
+          <caret line="40" column="100" lean-forward="true" selection-start-line="40" selection-start-column="100" selection-end-line="40" selection-end-column="100" />
+          <folding>
+            <marker date="1512604302083" expanded="true" signature="2276:2282" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>

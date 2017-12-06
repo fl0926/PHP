@@ -44,7 +44,8 @@
         <hr/>
         <?php if(isAdmin()){?>
             <a href="addPet.php">+ Add</a>&nbsp;&nbsp;
-            <a href="doDeletePet.php?id=<?=$_GET['id']?>" >delete</a>
+            <a href="updatePet.php?id=<?=$_GET['id']?>" >Change</a>&nbsp;&nbsp;
+            <a href="doDeletePet.php?id=<?=$_GET['id']?>" >Delete</a>
         <?php } ?>
 
     </body>

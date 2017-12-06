@@ -21,14 +21,28 @@ $petInfo = getPetInfo($_GET['id']);
     </span>
 </div>
 
-<form enctype="multipart/form-data" action="doAddPet.php" method="post">
+<form enctype="multipart/form-data" action="doUpdatePet.php" method="post">
     <label for="species"     >Species:     </label><input type="text" id="species"      name="species"      value="<?=$petInfo->species?>"   /><br/>
     <label for="breed"       >Breed:       </label><input type="text" id="breed"        name="breed"        value="<?=$petInfo->breed?>"     /><br/>
     <label for="name"        >Name:        </label><input type="text" id="name"         name="name"         value="<?=$petInfo->name?>"      /><br/>
     <label for="age"         >Age:         </label><input type="text" id="age"          name="age"          value="<?=$petInfo->age?>"       /><br/>
-    <label for="gender"      >Gender:      </label><input type="text" id="gender"       name="gender"       value="<?=$petInfo->gender?>"    /><br/>
-    <label for="availability">Availability:</label><input type="text" id="availability" name="availability" value="<?=$petInfo->available?>" /><br/>
-    <label for="photo"       >Photo:       </label><input type="file" id="photo"        name="photo"        /><br/>
+    <label for="gender"      >Gender:      </label>
+    <select id="gender" name="gender">
+        <option <?= ($petInfo->gender == "M") ? "SELECTED" : "" ?> value="M">Male</option>
+        <option <?= ($petInfo->gender == "F") ? "SELECTED" : "" ?> value="F">Female</option>
+        <option <?= ($petInfo->gender == "N") ? "SELECTED" : "" ?> value="N">N/A</option>
+    </select><br/>
+
+
+
+    <label for="availability">Availability:</label>
+    <select id="availability" name="availability" >
+        <option <?= ($petInfo->available == "AVAILABLE") ? "SELECTED" : "" ?> value="AVAILABLE">AVAILABLE</option>
+        <option <?= ($petInfo->available == "UNAVAILABLE") ? "SELECTED" : "" ?> value="UNAVAILABLE">UNAVAILABLE</option>
+    </select><br/>
+
+    <label for="photo"       >Photo:       </label><input type="file" id="photo"        name="photo"        />
+    <input type="hidden" name="id" value="<?=$petInfo->id?>"> <br/>
     <input type="submit" name="go" value="Save"/>
     &nbsp;<a href="index.php">Cancel</a>
 </form>

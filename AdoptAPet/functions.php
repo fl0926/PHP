@@ -112,6 +112,13 @@ function updatePet($id, $species, $breed, $name, $age, $gender, $avail){
     $pstmt->execute();
 }
 
+function updatePetWithPhoto($id, $species, $breed, $name, $age, $gender, $avail, $photo){
+    $db = getDB();
+    $pstmt = $db->prepare("update pets set species=?, breed=?, name=?, age=?, gender=?, avail=?, photo=? where id=?");
+    $pstmt->bind_param('sssisssi', $species, $breed, $name, $age, $gender, $avail, $photo, $id);
+    $pstmt->execute();
+}
+
 function createPetWithPhoto($species, $breed, $name, $age, $gender, $avail, $photo){
     $db = getDB();
     $pstmt = $db->prepare("insert into pets (species, breed, name, age, gender, avail, photo) values (?, ?, ?, ?, ?, ?, ?)");
