@@ -26,8 +26,20 @@ include "adminWall.php";
     <label for="breed"       >Breed:       </label><input type="text" id="breed"        name="breed"        /><br/>
     <label for="name"        >Name:        </label><input type="text" id="name"         name="name"         /><br/>
     <label for="age"         >Age:         </label><input type="text" id="age"          name="age"          /><br/>
-    <label for="gender"      >Gender:      </label><input type="text" id="gender"       name="gender"       /><br/>
-    <label for="availability">Availability:</label><input type="text" id="availability" name="availability" /><br/>
+    <label for="gender"      >Gender:      </label>
+    <select id="gender" name="gender">
+        <option value="M">Male</option>
+        <option value="F">Female</option>
+        <option value="N">N/A</option>
+    </select><br/>
+
+
+
+    <label for="availability">Availability:</label>
+    <select id="availability" name="availability" >
+        <option value="AVAILABLE">AVAILABLE</option>
+        <option value="UNAVAILABLE">UNAVAILABLE</option>
+    </select><br/>
     <label for="photo"       >Photo:       </label><input type="file" id="photo"        name="photo"        /><br/>
     <input type="submit" name="go" value="Save"/>
     &nbsp;<a href="index.php">Cancel</a>
