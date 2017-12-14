@@ -1,6 +1,26 @@
 <?php
     require_once "header.php";
     require_once "functions.php";
+
+    if( isset($_GET["fo"])){
+        switch($_GET["fo"]){
+            case "JSON":
+            case "json":
+                include "main_page_json.php";
+                exit(0);
+                break;
+
+            case "XML":
+            case "xml":
+                include "main_page_xml.php";
+                exit(0);
+                break;
+
+            default:
+                /* fall through to the HTML */
+        }
+
+    }
 ?>
 <!DOCTYPE html>
 <html style="margin: 0px; padding: 0px">
